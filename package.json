@@ -4,17 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "seed:dev": "nodemon ./db/seed.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/alexortizrosado/juicebox.git"
+  "dependencies": {
+    "pg": "^8.6.0"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/alexortizrosado/juicebox/issues"
-  },
-  "homepage": "https://github.com/alexortizrosado/juicebox#readme"
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
 }
